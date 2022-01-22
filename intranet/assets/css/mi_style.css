@@ -1,0 +1,83 @@
+ 
+#content>.row:first-child{
+	background-color: #f7f7f9;
+	margin-top:-10px; 
+	margin-bottom:5px;
+	
+	border-bottom:1px solid #CCC}
+	
+.error
+{
+	color:#F00;
+}
+
+.opciones{
+	padding:1px 5px 0px 0px !important;
+}
+
+
+.vertical-align {
+  display: flex;
+  align-items: center; 
+}
+.modal-header
+{
+	border: 1px solid transparent; 
+	border-color: #9cb4c5;
+    color: #305D88;
+    background-color: #d6dde7;
+	border-left-width: 5px;
+	    
+}
+.modal-footer
+{
+	border-color: #9cb4c5;
+	background-color:#E5EBF3;
+	padding-bottom:14px; padding-top:14px
+}
+
+.titulo-jarvis
+{	 
+    display: inline-block;
+    font-size: 14px;	
+	padding-top: 7px !important;  
+}
+
+.mitabla thead tr{
+	background-image:-webkit-linear-gradient(top,#b9c6d2 0,#ffffff 100%) !important;
+}
+.tipolabel{
+	border:none !important;
+	background-color:transparent !important;
+	
+}
+ 
+ .clockpicker-popover {
+    z-index: 999999;
+}
+body{
+	padding-right:0px !important;
+}
+.smart-form fieldset{
+	     padding-top: 7px !important; 
+
+}
+
+.table-hover>tbody>tr:hover{
+	 background-color:#DCE9F9 !important
+	 }
+	 
+ 
+/*Estilo scroll
+::-webkit-scrollbar{
+  width: 10px;
+background-color: #F5F5F5;
+}
+::-webkit-scrollbar-track{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #F90; 
+    background-image: -webkit-linear-gradient(90deg,rgba(255, 255, 255, .2) 25%,transparent 25%,transparent 50%,rgba(255, 255, 255, .2) 50%,rgba(255, 255, 255, .2) 75%,transparent 75%,transparent)
+}*/

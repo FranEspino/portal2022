@@ -1,0 +1,179 @@
+ html, body {
+height: 100%;
+}
+.bg-oscuro {
+  background-color: #005e44  ; 
+  border-bottom-color:#005e44;
+   border-style: none;/* Solid*/
+   border-left:0px;
+   border-right:0px
+}
+ .bg-azul {
+  background-color: #17202A  ;
+}
+ 
+#IrArriba {
+position: fixed;
+bottom: 30px; /* Distancia desde abajo */
+right: 30px; /* Distancia desde la derecha */
+display: block;
+}
+/*#IrArriba span {
+width: 50px;/*  Ancho del botón 
+height: 50px;*/ /* Alto del botón  
+
+background: url(../img/Subir.png) no-repeat center center;
+}*/
+ 
+  ul.navbar-nav li.dropdown:hover ul.dropdown-menu.submenu{ 
+    display: block;  
+            /*    background-color:#FFF; 
+                font-weight: normal; */        
+  } 
+  .navbar{
+	    padding-bottom: 0px; padding-top: 0px;"
+	  }
+
+.navbar-inverse .navbar-nav .open > .nav-link,
+.navbar-inverse .navbar-nav .active > .nav-link,
+.navbar-inverse .navbar-nav .nav-link.open,
+.navbar-inverse .navbar-nav .nav-link.active {
+   
+  background-color: #17202a73;  
+}
+
+.dropdown-item:focus, .dropdown-item:hover{
+    background-color:#005e44;
+}
+
+<!--Para las paginas fecha-->
+time.icon {
+    font-size: 14px;
+    display: block;
+    position: relative;
+    width: 35px;
+    height: 43px;
+    background-color: #fff;
+    margin: 3px auto;
+    border-radius: 7px;
+    box-shadow: 0 1px 0 #bdbdbd, 0 2px 0 #fff, 0 3px 0 #EEE9E9, 0 4px 0 #fff, 0 5px 0 #FFF, 0 0 0 1px #D3D3D3;
+    overflow: hidden;
+}
+time.icon strong {
+    position: absolute;
+    top: 0;
+    padding: 2px 0;
+    color: #fff;
+    background-color: #3a3633;
+    -webkit-box-shadow: 0 2px 0 #3a3633;
+    box-shadow: 0 2px 0 #3a3633;
+    border-radius: 6px 6px 0 0;
+}
+time.icon span {
+    width: 100%;
+    font-size: 45px;
+    letter-spacing: -.05em;
+    padding-top: 21px;
+    color: #2f2f2f;
+}
+time.icon * {
+    display: block;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+}
+
+.bg-primary{
+	background-color:#0d47a1 !important
+}
+.bg-success{
+	background-color:#007E33 !important
+}
+.bg-info{
+	background-color:#0099CC !important
+	
+}
+.bg-warning{
+	background-color:#FF8800 !important
+}
+.bg-danger{
+	background-color:#CC0000 !important
+}
+ 
+
+<!--de aqui no se que es-->
+.carousel-control.left,.carousel-control.right  {background:none;width:25px;}
+.carousel-control.left {left:-25px;}
+.carousel-control.right {right:-25px;}
+ 
+.block-text {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 3px 0 #2c2222;
+    color: #626262;
+    font-size: 14px;
+    margin-top: 27px;
+    padding: 15px 18px;
+}
+.block-text a {
+ color: #7d4702;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 21px;
+    text-decoration: none;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+.mark {
+    padding: 12px 0;background:none;
+}
+.block-text p {
+    color: #585858;
+    font-family: Georgia;
+    font-style: italic;
+    line-height: 20px;
+}
+
+.sprite-i-triangle {
+    background-position: 0 -1298px;
+    height: 44px;
+    width: 50px;
+}
+.block-text ins {
+    bottom: -44px;
+    left: 50%;
+    margin-left: -60px;
+}
+
+
+.block {
+    display: block;
+}
+.zmin {
+    z-index: 1;
+}
+.ab {
+    position: absolute;
+}
+
+.person-text {
+    padding: 10px 0 0;
+    text-align: center;
+    z-index: 2;
+}
+.person-text a {
+    color: #ffcc00;
+    display: block;
+    font-size: 14px;
+    margin-top: 3px;
+    text-decoration: underline;
+}
+.person-text i {
+    color: #fff;
+    font-family: Georgia;
+    font-size: 13px;
+}
+.rel {
+    position: relative;
+}
